@@ -5,6 +5,7 @@ import {
   Route
 } from 'react-router-dom'
 import Home from './components/Home'
+import Downloads from './components/Downloads'
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <div className="App">
         <Routes>
           <Route exact path='/' element={< Home />}></Route>
+          <Route exact path='downloads' element={< Downloads />}></Route>
+
         </Routes>
       </div>
     </Router>

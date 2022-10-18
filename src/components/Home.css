@@ -1,19 +1,26 @@
 * {
     box-sizing: border-box;
 }
-html, body, section, div {
+
+html,
+body,
+section,
+div {
     height: 100%;
 }
+
 body {
     color: #fff;
     font-size: 1.25rem;
     line-height: 150%;
     text-align: center;
-    background-image: linear-gradient(to right,#5CAAFF , #A55FFF);
+    background-image: linear-gradient(to right, #5CAAFF, #A55FFF);
 }
+
 section {
     width: 100%;
 }
+
 article {
     position: relative;
     top: 50%;
@@ -28,6 +35,7 @@ article {
     float: left;
     width: 50%;
 }
+
 .right-half {
     float: left;
     width: 50%;
@@ -67,7 +75,23 @@ h2 {
     .right-half {
         display: none;
     }
+
     .left-half {
         width: 100%;
     }
-  }
+}
+
+.googlebtn {
+    margin-left: 30px;
+}
+
+.back {
+    background-color: #0a0a0a;
+    color: white;
+    padding: 11px;
+    border-radius: 8px;
+    left: 10px;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+}
