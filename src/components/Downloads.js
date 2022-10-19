@@ -37,7 +37,7 @@ const Home = () => {
             </div>
             <div class="right-half">
                 <article>
-                    <img src="https://cdn.discordapp.com/attachments/1017260992650027058/1031664889468555324/sincolor.png" />
+                    <img src="https://raw.githubusercontent.com/blazap/blazap-db/main/nocolor.png" />
                 </article>
             </div>
         </section>
