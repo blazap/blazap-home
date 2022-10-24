@@ -18,8 +18,8 @@ const Home = () => {
         <section class="container">
             <div class="left-half">
             <article>
-                <h1>Blazap - Store of webapps</h1>
-                <h2>And you can convert a webapp to a normal app!</h2>
+                <h1>Blazap</h1>
+                <h2>Find the app you need!</h2>
                 <button class="formbtn" onClick={() => window.location.href = process.env.REACT_APP_WEBAPP_REDIRECT}>Launch on the web</button>
                 <Link to={process.env.REACT_APP_DOWNLOADS_REDIRECT}>
                 <button class="formbtn">Downloads</button>
